@@ -17,7 +17,16 @@ export default function HomeLayout() {
   return (
     <Provider>
       <ThemeProvider value={scheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack />
+        <Stack>
+          <Stack.Screen
+            key="(modals)/show-modal"
+            name="(modals)/show-modal"
+            options={{
+              headerShown: true,
+              presentation: 'modal',
+            }}
+          />
+        </Stack>
       </ThemeProvider>
     </Provider>
   )

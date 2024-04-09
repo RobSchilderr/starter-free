@@ -3262,6 +3262,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hookform/resolvers@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@hookform/resolvers@npm:3.3.4"
+  peerDependencies:
+    react-hook-form: ^7.0.0
+  checksum: 10/0845e15f53b515ab5dc8d970d4ee7f47bbdfc4f4391bc166361535482d96b6ae3d1812669107fca05bf8687fa5447e3ed65f2eee3e349759b23b229ca978f917
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -3622,9 +3631,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@my/ui@workspace:packages/ui"
   dependencies:
+    "@hookform/resolvers": "npm:^3.3.4"
     "@my/config": "npm:0.0.1"
     "@tamagui/build": "npm:^1.94.4"
     "@tamagui/toast": "npm:^1.94.4"
+    "@ts-react/form": "npm:1.6.4"
+    react-hook-form: "npm:7.51.0"
     tamagui: "npm:^1.94.4"
   languageName: unknown
   linkType: soft
@@ -6016,6 +6028,18 @@ __metadata:
     mkdirp: "npm:^1.0.4"
     path-browserify: "npm:^1.0.1"
   checksum: 10/6a66c50ef2f3b2edd2ea87c2ee2eaf916a41fdd6c94da58dcffe3923c9ceae36eb6a34b22dba4200cc50427b982ada9b4df048dc21509bb99b2725e4dfcf0063
+  languageName: node
+  linkType: hard
+
+"@ts-react/form@npm:1.6.4":
+  version: 1.6.4
+  resolution: "@ts-react/form@npm:1.6.4"
+  peerDependencies:
+    "@hookform/resolvers": ^2.8.0 || ^3.0.0
+    react: ^16.8.0 || ^17 || ^18
+    react-hook-form: ^7.39.0
+    zod: ^3.19.0
+  checksum: 10/4c8c79418903c65283fcf673d579dc572b4c00e5bb9cf001eb2f1a608d699a0c853dd49830ee4a56419836167dfa4634fd0b7f19cb9d22ad2a4434eecefd404b
   languageName: node
   linkType: hard
 
@@ -16771,6 +16795,15 @@ __metadata:
     react: ^16.6.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
   checksum: 10/73d6383dd5d5794cad3837cf6b71d7e23afa6f3ba745e50a9d0d6bf42ff0ab175e4292f250ffe757f4bd782e64c37c4583fb884340cd63891deb33e144628661
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:7.51.0":
+  version: 7.51.0
+  resolution: "react-hook-form@npm:7.51.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 10/2697e2b56afca36098aed04d187e9756641e1f61e1a29c566b7bba0899c885fc5f995219a29a9535db748bd55e186cdf95ff8af546247a4bf3418a00863cbd24
   languageName: node
   linkType: hard
 
